@@ -1,0 +1,157 @@
+body{
+    width: 100% ;
+    margin: 0 auto;
+    padding: 0;
+
+}
+a {
+    color: #000 !important;
+    text-decoration: none
+}
+.footer{
+    background-color: #8ac858;
+    width: 100%;
+    margin: 0 0 2px;
+    transition: all 0.7s ease 0s;
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    color: #f5f7f4;
+
+}
+.head{
+    position: -ms-device-fixed;
+    background-color:  #8ac858;
+    text-align: center;
+    width: 100%;
+}
+.saitbar {
+
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.menu-4 {
+    margin: 0;
+    padding: 15px;
+    height: auto;
+    list-style-type: none;
+}
+.menu-4 li {
+    margin: 0 0 2px;
+    padding: 0;
+    transition: all 0.7s ease 0s;
+    display:inline-block;
+    position: relative;
+}
+
+.menu-4 a {
+    padding: 6px 50% 8px 100px;
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: all 0.7s ease 0s;
+    display: block;
+}
+.menu-4 a:hover {
+    color: #4a8d47;
+}
+#selected-page{
+    background-color: #365b2d;
+}
+
+.newsList{
+    background-color: #f5f7f4;
+    float: left;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+
+}
+.news{
+    width: 100%;
+    float: left;
+
+    border: 1px double #cbc7cd;
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    margin-left: 2%;
+}
+
+.newsName{
+    font-size: 200%;
+    color: #757575;
+}
+.newsShortText{
+    color: #212121;
+
+}
+.newsImg{
+    width: 100%; /* Ширина области */
+    overflow: hidden; /* Прячем всё за пределами */
+}
+
+.top_views{
+    background-color: #ffffff;
+    margin-bottom: 5%;
+    padding-left: 35%;
+    padding-right:35%;
+
+}
+.top_views p{
+    font-size: 200%;
+
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #C2C2FF;
+    padding: 3px 40px 2px 30px;
+}
+th {
+    text-align: left;
+    padding: 2%;
+    background-color: #4a8d47;
+    color: #fff;
+}
+tr:hover { background-color: #E0E0FF; }
+
+.communiti{
+    text-align: center;
+    border: 1px double #cbc7cd;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 400px;
+
+}
+
+.communiti img{
+    width: 30%; /* Ширина области */
+    overflow: hidden; /* Прячем всё за пределами */
+}
+.сommunitiName{
+    margin: 0;
+    font-weight: 600;
+    font-size: 150%;
+}
+.communitiShortteext{
+    font-size: 110%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+.communiti button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
